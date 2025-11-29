@@ -105,7 +105,7 @@ CUDA_VISIBLE_DEVICES=0 python tracking/train.py --script tstrans --config vitb_2
 1. Download the model weights from [Baidu Disk](https://pan.baidu.com/s/1rcVKFFg7m8oypbtb-Iq_-g)(code: isju).
 
 2. Put the downloaded weights corresponding to the tested dataset on `$PROJECT_ROOT$/output/checkpoints/train/tstrans/vitb_256_mae_ce_ep600/`.
-Modify the weight name to be `TSTrans_ep$TEST_EPOCH$.pth.tar`($TEST_EPOCH$ in the form of '%04d') according to the setted `TEST.EPOCH` in cofiguration file `vitb_256_mae_ce_ep600.yaml`.
+Modify the weight name to be `TSTrans_ep$TEST_EPOCH$.pth.tar`(`$TEST_EPOCH$` is in the form of '%04d') according to the setted `TEST.EPOCH` in cofiguration file `vitb_256_mae_ce_ep600.yaml`.
 
 3. Modify paths in the file `$PROJECT_ROOT$/lib/test/evaluation/local.py`.
 
