@@ -130,7 +130,7 @@ python tracking/analysis_results.py --tracking_results './output/test/tracking_r
 (2) Select the `--analyzed_split` in ['sv248s_test', 'satsot_test', 'viso_test'] for the evaluated dataset.
 
 
-## Calculate FLOPs and Model-Scale
+## Calculate MACs and Model-Scale
 *Note:* The speeds reported in our paper were tested on a single NVIDIA GeForce RTX 3090 GPU.
 ```
 python tracking/profile_model.py --script tstrans --config vitb_256_mae_ce_ep600
