@@ -68,7 +68,7 @@ Put the tracking datasets in ./data. It should look like this:
 *Note:* Each directory (e.g. 1_000001, car_01, vehicle_001_1) represents a sequence. The directory names from SV248S and VISO are changed for the data form of parallel sequences. Specifically, in sequence name '1_000001', the '1' before underline denotes its video id and the '000001' after underline denotes its sequence id from video '01'. In sequence name 'vehicle_001_1', the '001' in the middle denotes its video id and the '1' at the end denotes its sequence id from video '001'. Besides, 'aero, boat, rail, vehicle' represent the categories 'plane, ship, train, car' respectively, for SOT part of VISO.
 
 Put the dataset splits in ./lib/train/data_specs. It should look like this:
-    ```
+   ```
     -- data_specs
         -- satsot
             |-- train_split.txt
@@ -79,7 +79,7 @@ Put the dataset splits in ./lib/train/data_specs. It should look like this:
         -- viso
             |-- train_split.txt
             |-- val_split.txt
-    ```
+   ```
 
 
 ## Training
